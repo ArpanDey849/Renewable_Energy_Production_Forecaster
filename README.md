@@ -26,7 +26,7 @@ Small solar plant owners in India must commit to a fixed energy delivery **24 ho
 - **Input:** 24 hours of past weather + generation (7 features)
 - **LSTM:** 1 layer, 32 hidden units, dropout=0.3
 - **Output:** Next-hour power generation (kW)
-- **Training:** 30 epochs, Adam (lr=0.001), MSELoss
+- **Training:** 50 epochs, Adam (lr=0.001), MSELoss
 
 ##  Features Used
 
